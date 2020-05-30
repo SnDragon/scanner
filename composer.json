@@ -1,0 +1,20 @@
+{
+    "name": "longerwu/scanner",
+    "description": "Scan URLs and report inaccessible URLs",
+    "licence": "MIT",
+    "keywords": ["url", "scanner"],
+    "authors": [
+        {
+            "name": "longerwu",
+            "email": "1803240383@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Longerwu\\Util\\": "src/"
+        }
+    }
+}
